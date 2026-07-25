@@ -1,0 +1,8 @@
+{
+  "appId": "com.mits.markup",
+  "appName": "Mark-UP",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true
+  }
+}

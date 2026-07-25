@@ -1,0 +1,35 @@
+# Local environment files
+.env
+*.env
+backend/.env
+frontend/.env
+
+# Python files
+backend/venv/
+backend/__pycache__/
+backend/cache/
+backend/uploads/*.jpg
+backend/uploads/*.jpeg
+backend/uploads/*.png
+backend/uploads/Mark-UP-MITS.apk
+backend/downloaded_marks.xlsx
+backend/master_marks.xlsx
+*.pyc
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Production builds and cache
+dist/
+frontend/dist/
+.gradle/
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/local.properties
+frontend/android/.idea/
+*.log
+
+# OS files
+.DS_Store
+Thumps.db
